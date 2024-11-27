@@ -63,4 +63,5 @@ for(i in 1:iterations) {
     average = average)
 }
 
+
 write.table(output,paste0('android_ratings.csv'),append = TRUE, sep=',', col.names = FALSE)   
