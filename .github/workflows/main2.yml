@@ -19,7 +19,7 @@ jobs:
     
     # Set-up R
     
-    - name: Install packages
+    - name: Install packages now
       run: |
        R -e 'options(pkgType = "both"); install.packages(c("rvest", "RCurl", "stringi", "tibble", "xml2", "openssl", "vctrs", "cli", "rlang", "selectr"))'
 
