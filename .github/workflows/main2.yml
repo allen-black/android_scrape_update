@@ -5,7 +5,8 @@ name: android_scraping
 
 on:
   schedule:
-    - cron:  '01 10 * * *'
+    - cron:  '02 10 * * *'
+  workflow_dispatch: 
 
 jobs:
   build:
